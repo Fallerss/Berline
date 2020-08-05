@@ -20,7 +20,7 @@ const youtube = new YouTube(GOOGLE_API_KEY);
 const queue = new Map();
 
 bot.once("ready", () => {
-  console.log("Ready!");s
+  console.log("Ready!");
   setInterval(() => {
     let vc = bot.channels.cache.get("735316437421391903");
     bot.voice.joinChannel(vc)
