@@ -6,8 +6,12 @@
   "dependencies": {
     "discord.js": "^12.2.0",
     "dotenv": "^8.2.0",
+    "node-gyp": "^7.0.0",
+    "opus": "0.0.0",
     "opusscript": "0.0.7",
+    "rebuild": "^0.1.2",
     "simple-youtube-api": "^5.2.1",
+    "switch": "0.0.0",
     "ytdl-core": "^3.2.0"
   },
   "devDependencies": {},
